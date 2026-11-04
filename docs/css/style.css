@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8f6;
+    margin: 0;
+    color: #222;
+}
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(135deg, #087f5b, #20a879);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero-section h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+/* Station cards */
+.station-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+.station-card:hover {
+    transform: translateY(-5px);
+}
+
+.station-card .card-body {
+    padding: 25px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+}
